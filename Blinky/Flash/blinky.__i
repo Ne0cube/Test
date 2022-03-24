@@ -1,0 +1,6 @@
+-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork 
+-I.\RTE\_CMSIS-DAP
+-IC:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include
+-IC:\Users\ludvv\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include
+-D__UVISION_VERSION="536" -D_RTE_ -DMK64FN1M0xxx12 -D_RTE_
+-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d "Blinky.c"

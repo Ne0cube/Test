@@ -1,0 +1,20 @@
+Dependencies for Project 'Blinky', Target 'CMSIS-DAP': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Blinky.c)(0x53BAB484)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork -I.\RTE\_CMSIS-DAP-IC:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ludvv\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DMK64FN1M0xxx12 -D_RTE_-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\MK64F12.h)(0x585BDE7A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D44B52)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D44B52)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\system_MK64F12.h)(0x54046D80)
+F (.\Abstract.txt)(0x5756B9B2)()
+F (RTE\Device\MK64FN1M0xxx12\startup_MK64F12.s)(0x540973FE)(--cpu Cortex-M4.fp.sp -g --apcs=interwork -I.\RTE\_CMSIS-DAP-IC:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ludvv\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include--pd "__UVISION_VERSION SETA 536" --pd "_RTE_ SETA 1" --pd "MK64FN1M0xxx12 SETA 1" --pd "_RTE_ SETA 1"--list .\flash\startup_mk64f12.lst --xref -o .\flash\startup_mk64f12.o --depend .\flash\startup_mk64f12.d)
+F (RTE\Device\MK64FN1M0xxx12\system_MK64F12.c)(0x5485BB00)(-c --cpu Cortex-M4.fp.sp -g -O0 --apcs=interwork -I.\RTE\_CMSIS-DAP-IC:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include-IC:\Users\ludvv\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include-D__UVISION_VERSION="536" -D_RTE_ -DMK64FN1M0xxx12 -D_RTE_-o .\flash\system_mk64f12.o --omf_browse .\flash\system_mk64f12.crf --depend .\flash\system_mk64f12.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x602585EE)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\MK64F12.h)(0x585BDE7A)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\core_cm4.h)(0x60D44B52)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_version.h)(0x60D44B52)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_compiler.h)(0x60D44B52)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Core\Include\cmsis_armcc.h)(0x60D44B52)
+I (C:\Users\ludvv\AppData\Local\Arm\Packs\Keil\Kinetis_K60_DFP\1.5.0\Device\Include\system_MK64F12.h)(0x54046D80)

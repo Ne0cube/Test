@@ -1,0 +1,33 @@
+The 'Blinky' project is a simple demo program for NXP Kinetis 'MK64' series using
+NXP 'FRDM-K64F' evaluation board populated with the 'K64FN1M0VLL12' device.
+Compliant to the Cortex Microcontroller Software Interface Standard (CMSIS)
+
+Example functionality
+ - Clock Settings: Core clock = 120 MHz
+ - Sys Timer is used in interrupt mode
+ - RGB LEDs are blinking with speed depending on SysTick timer interrupt period
+
+
+The Blinky program is available in different targets:
+   CMSIS-DAP:                      Debug/Target Driver is configured as CMSIS-DAP
+                                   runs from Internal Flash located on chip
+                                  (used for production or target debugging)
+   ULINK2:                         Debug/Target Driver is configured as ULINK2
+                                   runs from Internal Flash located on chip
+                                  (used for production or target debugging)
+
+Selecting "CMSIS-DAP" OpenSDAv2 application:
+ 1. Download and install the mbed OpenSDAv2 USB Drivers found at http://mbed.org/handbook/Windows-serial-configuration
+ 2. Start OpenSDAv2 in bootloader mode: Unplug and plug the OpenSDAv2 micro-B USB connection whilst pushbutton, SW1 is pressed.
+ 3. Drag and drop CMSIS-DAP" OpenSDAv2 application file to the OpenSDAv2 mass storage device.
+ 4. Unplug and plug the OpenSDA USB connection.
+
+CMSIS-DAP Note:
+ - "CMSIS-DAP" OpenSDA application file is located in folder "OpenSDAv2".
+ - For more information on OpenSDAv2, refer to FRDM-K64F user manual.
+
+ULINK2 Note:
+ - To use an external debugger, such as J-Link, you may need to disconnect the OpenSDA SWD from the K64.
+   To do this on the FRDM-K64F board, cut the shorting trace which connects the pins of jumper holes on
+   connectors J8 and J12.
+ - For more information on "How to use external debugger", refer to FRDM-K64F user manual.
